@@ -1,0 +1,292 @@
+body{
+  background-color: #0189C3;
+  overflow-x: hidden;
+}
+
+.selected-child{
+  background: #70c667!important;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.slideInUp {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: slideInUp; }
+
+.pulse {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: pulse; }
+
+
+#header{
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #000;
+}
+
+#header .btn{
+  font-weight: 600;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#header .row div:nth-child(2){
+  line-height: 1.5rem;
+}
+
+#header span{
+  font-size:1rem;
+}
+
+#top-fold{
+   background:url('../img/background.jpg') #0189C3 no-repeat;
+   background-position: top center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: auto;
+}
+
+#top-fold .row div:nth-child(1){
+  padding-top: 140px;
+}
+
+
+.text-long-shadow{
+   color: #fff;
+   font-size: 6rem;
+   line-height: 5.6rem;
+   font-weight: 900;
+   text-align: center;
+   font-family: 'Days One', sans-serif;
+   text-shadow:  1px 1px rgba(2, 87, 135, 0.2) ,
+   2px 2px rgba(2, 87, 135, 0.29) ,
+   3px 3px rgba(2, 87, 135, 0.28) ,
+   4px 4px rgba(2, 87, 135, 0.27) ,
+   5px 5px rgba(2, 87, 135, 0.26) ,
+   6px 6px rgba(2, 87, 135, 0.24) ,
+   7px 7px rgba(2, 87, 135, 0.23) ,
+   8px 8px rgba(2, 87, 135, 0.22) ,
+   9px 9px rgba(2, 87, 135, 0.21) ,
+   10px 10px rgba(2, 87, 135, 0.20) ,
+   11px 11px rgba(2, 87, 135, 0.19) ,
+   12px 12px rgba(2, 87, 135, 0.18) ,
+   13px 13px rgba(2, 87, 135, 0.17) ,
+   14px 14px rgba(2, 87, 135, 0.16) ,
+   15px 15px rgba(2, 87, 135, 0.15) ,
+   16px 16px rgba(2, 87, 135, 0.14) ,
+   17px 17px rgba(2, 87, 135, 0.13) ,
+   18px 18px rgba(2, 87, 135, 0.12) ,
+   19px 19px rgba(2, 87, 135, 0.11) ,
+   20px 20px rgba(2, 87, 135, 0.10) ,
+   21px 21px rgba(2, 87, 135, 0.09) ,
+   22px 22px rgba(2, 87, 135, 0.08) ,
+   23px 23px rgba(2, 87, 135, 0.07) ,
+   24px 24px rgba(2, 87, 135, 0.06) ,
+   25px 25px rgba(2, 87, 135, 0.05) ,
+   26px 26px rgba(2, 87, 135, 0.04) ,
+   27px 27px rgba(2, 87, 135, 0.03) ,
+   28px 28px rgba(2, 87, 135, 0.02) ,
+   29px 29px rgba(2, 87, 135, 0.01) ,
+   30px 30px rgba(2, 87, 135, 0.0019),
+   31px 31px rgba(2, 87, 135, 0.0018),
+   32px 32px rgba(2, 87, 135, 0.0017),
+   33px 33px rgba(2, 87, 135, 0.0016),
+   34px 34px rgba(2, 87, 135, 0.0015),
+   35px 35px rgba(2, 87, 135, 0.0014),
+   36px 36px rgba(2, 87, 135, 0.0013),
+   37px 37px rgba(2, 87, 135, 0.0012),
+   38px 38px rgba(2, 87, 135, 0.0011);
+
+}
+.text-long-shadow span:nth-child(1){
+  font-size: 4.9rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+.text-long-shadow :nth-child(3){
+  font-size: 8.5rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#top-fold .btn, #third .btn{
+  width: 276px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size:1.5rem;
+  line-height: 25px;
+}
+
+section#middle{
+  color: #fff;
+  background:url('../img/woman-smiling.jpg') no-repeat;
+  background-size: cover;
+  background-position:top left;
+
+}
+
+#middle h1, #middle h3{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#middle h1, #third h1{
+  font-family: 'Dancing Script', cursive;
+}
+#middle h3, #third h3, #steps h1, #fourth h1{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+#middle .overlay{
+  background:rgba(0,0,0,0.5);
+  position: relative;
+}
+#third{
+  color:#fff;
+}
+#third .circle{
+  height: 50px;
+  width: 50px;
+}
+#third .circle:nth-child(1), #third .circle:nth-child(2), #third .circle:nth-child(4),#third .circle:nth-child(3){
+  border-radius: 100%;
+  padding: 12px;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  border: 1px solid silver;
+}
+
+#third .circle:nth-child(1){
+  background-color: #D5B791;
+  color:#ad9980;
+}
+#third .circle:nth-child(2){
+  background-color: #EACDA5;
+  color:#ad9980;
+}
+#third .circle:nth-child(3){
+  background-color: #F8E0C4;
+  color:#ad9980;
+}
+#third .circle:nth-child(4){
+  background-color: #fff;
+  color:#ad9980;
+}
+#steps {
+  color: #fff;
+}
+#steps h1 span{
+  font-family: 'Dancing Script', cursive;
+}
+
+#steps .step-header{
+    background-color: #055c84;
+}
+
+#steps .step-circle{
+   color: #fff;
+   background-color: #0291f7;
+   position: relative;
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   text-align:center;
+   padding: 5px;
+   top: -26px;
+   margin:0 auto;
+   border: 2px solid #fff;
+}
+#steps .step-body{
+  background-color: white;
+  color: #222;
+  min-height: 170px;
+  height: auto;
+
+}
+
+#fourth{
+  color: #fff;
+
+}
+
+#fourth #safe-way{
+  border:1px solid #fff;
+  min-height: 400px;
+  height: auto;
+}
+
+#footer{
+  color:#fff;
+  background-color: #222;
+}
+
+#footer a{
+  margin-left: 30px;
+}
+
+
+
+
+
+
+/*******************************************************************************
+                               animations
+*******************************************************************************/
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp; }
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse; }
+
+
+/*******************************************************************************
+               CSS Hack for IE
+********************************************************************************/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #top-fold .d-flex{
+        display: inline-block !important;
+    }
+
+}
